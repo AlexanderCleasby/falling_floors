@@ -1,0 +1,1 @@
+A simple infinite scrolling platformer game made using Vanilla JS
