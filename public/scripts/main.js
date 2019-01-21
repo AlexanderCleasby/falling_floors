@@ -102,7 +102,7 @@ function animate() {
         y: Player.y,
         width: Player.width,
         height: Player.height
-    }], 'rgb(90,70,80)')
+    }], 'rgb(255,250,100)')
     floors.forEach((floor) => {
         drawrects([{
                     x: 0,
