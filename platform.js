@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-
+const port = process.env.port || 3000
 
 app.get('/', (req, res) => {
     //console.log(req.cookies)
@@ -8,4 +8,4 @@ app.get('/', (req, res) => {
 });
 app.use(express.static(__dirname + '/public'));
 
-app.listen(3001);
+app.listen(port,()=>{console.log(`listening on port ${port}`)});
